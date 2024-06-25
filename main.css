@@ -56,6 +56,8 @@ html {
     --clr_black: #0b0500;
 
     /* Fonts */
+    --font_medium: font_medium, Arial, Helvetica, sans-serif;
+    --font_regular: font_regular, Arial, Helvetica, sans-serif;
 
     /* Others */
 }
