@@ -65,6 +65,8 @@ html {
     --container_width: 95%;
     --primary_button_border: solid 0.1em var(--clr_gray);
     --primary_button_font_size: 1em;
+    --primary_button_padding: 0.6em 1.3em;
+    --primary_button_border_radius: 9em;
 }
 
 .container {
@@ -95,6 +97,6 @@ html {
     font-size: var(--primary_button_font_size);
     color: var(--clr_black);
     border: var(--primary_button_border);
-    padding: 0.7em 1.3em;
-    border-radius: 9em;
+    padding: var(--primary_button_padding);
+    border-radius: var(--primary_button_border_radius);
 }
