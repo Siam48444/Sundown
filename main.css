@@ -37,6 +37,8 @@ html {
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
+    background-color: var(--clr_white) !important;
 }
 
 @font-face {
