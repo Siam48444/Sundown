@@ -50,9 +50,10 @@ html {
 
 :root {
     /* Colors */
-    --clr-primary-1: #fe330a;
-    --clr-primary-white: #efeae3;
-    --clr-primary-black: #0b0500;
+    --clr_primary_1: #fe330a;
+    --clr_white: #efeae3;
+    --clr_gray: #c1bcb6;
+    --clr_black: #0b0500;
 
     /* Fonts */
 
