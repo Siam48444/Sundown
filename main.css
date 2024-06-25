@@ -47,3 +47,14 @@ html {
     font-family: font_regular;
     src: url(Fonts/Neue_Haas_Display_Roman.ttf);
 }
+
+:root {
+    /* Colors */
+    --clr-primary-1: #fe330a;
+    --clr-primary-white: #efeae3;
+    --clr-primary-black: #0b0500;
+
+    /* Fonts */
+
+    /* Others */
+}
