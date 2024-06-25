@@ -62,4 +62,10 @@ html {
     --font_regular: font_regular, Arial, Helvetica, sans-serif;
 
     /* Others */
+    --container_width: 96%;
+}
+
+.container {
+    margin: auto;
+    width: var(--container_width);
 }
