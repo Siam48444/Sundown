@@ -63,9 +63,38 @@ html {
 
     /* Others */
     --container_width: 95%;
+    --primary_button_border: solid 0.1em var(--clr_gray);
+    --primary_button_font_size: 1em;
 }
 
 .container {
     margin: auto;
     width: var(--container_width);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 2em;
+}
+
+.nav_left svg {
+    height: 4em;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.primary_button {
+    font-family: var(--font_regular);
+    font-size: var(--primary_button_font_size);
+    color: var(--clr_black);
+    border: var(--primary_button_border);
+    padding: 0.7em 1.3em;
+    border-radius: 9em;
 }
