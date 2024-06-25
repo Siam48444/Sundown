@@ -93,9 +93,10 @@ html {
 }
 
 .primary_button {
+    position: relative;
     font-family: var(--font_regular);
     font-size: var(--primary_button_font_size);
-    color: var(--clr_black);
+    color: var(--clr_primary_1);
     border: var(--primary_button_border);
     padding: var(--primary_button_padding);
     border-radius: var(--primary_button_border_radius);
