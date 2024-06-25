@@ -38,3 +38,12 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+@font-face {
+    font-family: font_medium;
+    src: url(Fonts/Neue_Haas_Display_Medium.ttf);
+}
+@font-face {
+    font-family: font_regular;
+    src: url(Fonts/Neue_Haas_Display_Roman.ttf);
+}
