@@ -62,7 +62,7 @@ html {
     --font_regular: font_regular, Arial, Helvetica, sans-serif;
 
     /* Others */
-    --container_width: 96%;
+    --container_width: 95%;
 }
 
 .container {
