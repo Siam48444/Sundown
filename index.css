@@ -1,5 +1,5 @@
 .hero_section {
-    padding-block: 5em 3em;
+    padding-block: 5em var(--main_padding_block);
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;

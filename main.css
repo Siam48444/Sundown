@@ -53,7 +53,7 @@ html {
 :root {
     /* Colors */
     --clr_primary_1: #f83710;
-    --clr_white: #efeae3;
+    --clr_white: #ebe6df;
     --clr_gray: #c1bcb6;
     --clr_black: #0b0500;
 
@@ -64,6 +64,7 @@ html {
     /* Others */
     --max_width: min(111em, 100%);
     --main_width: 95%;
+    --main_padding_block: 2em;
 
     --hover_transition_time: 300ms;
 
@@ -82,13 +83,13 @@ html {
     width: var(--main_width);
     margin: auto;
     position: relative;
+    padding-block: var(--main_padding_block);
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-block: 2em;
 }
 
 .nav_left svg {
@@ -152,7 +153,7 @@ nav {
 @media (width < 750px) {
     .nav_left svg {
         height: 3.3em;
-    } 
+    }
 
     .nav_right a {
         display: none;
