@@ -52,7 +52,7 @@ html {
 
 :root {
     /* Colors */
-    --clr_primary_1: #fe330a;
+    --clr_primary_1: #f03009;
     --clr_white: #efeae3;
     --clr_gray: #c1bcb6;
     --clr_black: #0b0500;
@@ -104,6 +104,7 @@ nav {
 
 .primary_button {
     position: relative;
+    overflow: hidden;
     font-family: var(--font_regular);
     font-size: var(--primary_button_font_size);
     color: var(--clr_black);
@@ -111,6 +112,33 @@ nav {
     padding: var(--primary_button_padding);
     border-radius: var(--primary_button_border_radius);
 
-    transition-property: background-color;
+    transition-property: border-color;
     transition-duration: var(--hover_transition_time);
+
+    &::after {
+        position: absolute;
+        content: attr(name);
+        inset: 105% 30% -105% 30%;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        background-color: var(--clr_black) !important;
+        color: var(--clr_white);
+        font-family: inherit;
+        font-size: inherit;
+
+        transition-property: inset, border-radius;
+        transition-duration: var(--hover_transition_time);
+    }
+}
+
+@media (width > 1000px) {
+    .primary_button:hover {
+        border-color: transparent;
+        transition-delay: var(--hover_transition_time);
+    }
+    .primary_button:hover::after {
+        inset: 0;
+        border-radius: inherit;
+    }
 }
