@@ -131,7 +131,7 @@
 
     .intro_container,
     .intro_right {
-        gap: 0;
+        gap: 1em;
     }
 
     .intro_right {
