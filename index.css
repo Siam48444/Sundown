@@ -29,10 +29,10 @@
 
 .hero_right h1 {
     font-family: var(--font_medium);
-    font-size: 8em;
+    font-size: 9em;
     color: var(--clr_black);
     text-align: right;
-    line-height: 0.9;
+    line-height: 0.8;
 }
 
 @media (width < 1000px) {
@@ -48,7 +48,7 @@
 @media (width < 750px) {
     .hero_section {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 0.5fr;
+        grid-template-rows: repeat(2, fit-content);
     }
 
     .hero_left {
@@ -57,6 +57,12 @@
 
     .hero_right h1 {
         font-size: 5em;
+    }
+}
+
+@media (width < 500px) {
+    .hero_right h1 {
+        font-size: 3.5em;
     }
 
     .hero_left h3 {

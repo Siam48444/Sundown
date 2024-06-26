@@ -148,3 +148,13 @@ nav {
         display: none;
     }
 }
+
+@media (width < 750px) {
+    .nav_left svg {
+        height: 3.3em;
+    } 
+
+    .nav_right a {
+        display: none;
+    }
+}
