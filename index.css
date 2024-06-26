@@ -36,7 +36,7 @@
 }
 
 .below_main_container {
-    border: var(--primary_border_radius);
+    border-radius: var(--primary_border_radius);
 }
 
 /* Media Queries */
