@@ -51,6 +51,16 @@
     gap: 1em;
 }
 
+.slider {
+    animation: marquee linear infinite 10s;
+}
+
+@keyframes marquee {
+    to {
+        transform: translateX(-225.6%);
+    }
+}
+
 .slide svg {
     height: 4em;
 }
