@@ -120,6 +120,10 @@
 }
 
 @media (width < 500px) {
+    .hero_section {
+        padding-top: 5em;
+    }
+
     .hero_right h1 {
         font-size: 3.6em;
     }
