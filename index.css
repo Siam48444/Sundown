@@ -39,9 +39,26 @@
     border-radius: var(--primary_border_radius);
 }
 
-.marquee_section {
-    padding-block: var(--main_padding_block);
-    background-color: coral;
+.marquee_container {
+    overflow: hidden;
+}
+
+.slider,
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1em;
+}
+
+.slide svg {
+    height: 4em;
+}
+
+.slide h1 {
+    font-family: var(--font_medium);
+    font-size: 8em;
+    color: var(--clr_black);
 }
 
 /* Media Queries */
