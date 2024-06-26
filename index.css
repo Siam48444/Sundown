@@ -1,5 +1,5 @@
 .hero_section {
-    padding-block: 5em var(--main_padding_block);
+    padding-block: 8em var(--main_padding_block);
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -33,6 +33,10 @@
     color: var(--clr_black);
     text-align: right;
     line-height: 0.8;
+}
+
+.below_main_container {
+    border: var(--primary_border_radius);
 }
 
 /* Media Queries */

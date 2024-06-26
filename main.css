@@ -41,6 +41,13 @@ html {
     background-color: var(--clr_white) !important;
 }
 
+img,
+video {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+
 @font-face {
     font-family: font_medium;
     src: url(Fonts/Neue_Haas_Display_Medium.ttf);
@@ -67,6 +74,8 @@ html {
     --main_padding_block: 2em;
 
     --hover_transition_time: 300ms;
+
+    --primary_border_radius: 1em;
 
     --primary_button_border: solid 0.1em var(--clr_gray);
     --primary_button_font_size: 1em;
@@ -166,7 +175,7 @@ nav {
     width: 1.2em;
     height: 0.1em;
     background-color: var(--clr_gray) !important;
-    
+
     transition-property: translate, rotate, background-color;
     transition-duration: var(--hover_transition_time);
 }
