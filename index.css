@@ -37,7 +37,7 @@
 
 @media (width < 1000px) {
     .hero_right h1 {
-        font-size: 6.5em;
+        font-size: 7em;
     }
 
     .hero_left h3 {
@@ -56,13 +56,13 @@
     }
 
     .hero_right h1 {
-        font-size: 5em;
+        font-size: 6em;
     }
 }
 
 @media (width < 500px) {
     .hero_right h1 {
-        font-size: 3.5em;
+        font-size: 4em;
     }
 
     .hero_left h3 {
