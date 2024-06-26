@@ -1,10 +1,13 @@
+.hero_container {
+    border-bottom: var(--container_border);
+}
+
 .hero_section {
-    padding-block: 8em var(--main_padding_block);
     position: relative;
+    padding-top: 8em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3em;
-    border-bottom: var(--container_border);
 }
 
 .hero_left {
