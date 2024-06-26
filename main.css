@@ -154,7 +154,13 @@ nav {
         border-color: transparent;
         transition-delay: var(--hover_transition_time);
     }
-    .primary_button:hover::after {
+
+    .primary_button:focus-visible {
+        outline: solid 0.1em var(--clr_primary_1);
+    }
+
+    .primary_button:hover::after,
+    .primary_button:focus-visible::after {
         inset: 0;
         border-radius: inherit;
     }
