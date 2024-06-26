@@ -163,7 +163,7 @@ nav {
 }
 
 .hamburger_line {
-    width: 1.5em;
+    width: 1.2em;
     height: 0.1em;
     background-color: var(--clr_black) !important;
 }
