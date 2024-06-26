@@ -165,6 +165,20 @@ nav {
 .hamburger_line {
     width: 1.2em;
     height: 0.1em;
+    background-color: var(--clr_gray) !important;
+    
+    transition-property: translate, rotate, background-color;
+    transition-duration: var(--hover_transition_time);
+}
+
+.line_1_clicked {
+    translate: 0 0.15em;
+    rotate: -45deg;
+    background-color: var(--clr_black) !important;
+}
+.line_2_clicked {
+    translate: 0 -0.15em;
+    rotate: 45deg;
     background-color: var(--clr_black) !important;
 }
 
