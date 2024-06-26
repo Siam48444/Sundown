@@ -62,19 +62,29 @@ html {
     --font_regular: font_regular, Arial, Helvetica, sans-serif;
 
     /* Others */
-    --container_width: 95%;
+    --max_width: min(111em, 100%);
+    --main_width: 95%;
+
+    --hover_transition_time: 300ms;
+
     --primary_button_border: solid 0.1em var(--clr_gray);
     --primary_button_font_size: 1em;
-    --primary_button_padding: 0.6em 1.3em;
-    --primary_button_border_radius: 9em;
+    --primary_button_padding: 0.5em 1em;
+    --primary_button_border_radius: 10em;
 }
 
-.container {
+.max {
+    width: var(--max_width);
     margin: auto;
-    width: var(--container_width);
+    position: relative;
+}
+.main {
+    width: var(--main_width);
+    margin: auto;
+    position: relative;
 }
 
-.navigation {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -82,7 +92,7 @@ html {
 }
 
 .nav_left svg {
-    height: 4em;
+    height: 3.5em;
 }
 
 .nav_right {
@@ -96,8 +106,11 @@ html {
     position: relative;
     font-family: var(--font_regular);
     font-size: var(--primary_button_font_size);
-    color: var(--clr_primary_1);
+    color: var(--clr_black);
     border: var(--primary_button_border);
     padding: var(--primary_button_padding);
     border-radius: var(--primary_button_border_radius);
+
+    transition-property: background-color;
+    transition-duration: var(--hover_transition_time);
 }
