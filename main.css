@@ -168,6 +168,7 @@ nav {
     background-color: var(--clr_black) !important;
 }
 
+/* Media Queries */
 @media (width < 1000px) {
     .primary_button::after {
         display: none;

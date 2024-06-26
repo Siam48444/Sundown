@@ -35,6 +35,7 @@
     line-height: 0.8;
 }
 
+/* Media Queries */
 @media (width < 1000px) {
     .hero_right h1 {
         font-size: 7em;
