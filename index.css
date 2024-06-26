@@ -46,7 +46,22 @@
 }
 
 @media (width < 750px) {
+    .hero_section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.5fr;
+    }
+
+    .hero_left {
+        grid-row: 2 / 3;
+    }
+
     .hero_right h1 {
         font-size: 5em;
     }
+
+    .hero_left h3 {
+        font-size: 1.1em;
+    }
 }
+
+@media (width < 750px) {
