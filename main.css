@@ -153,6 +153,21 @@ nav {
     display: none;
 }
 
+.hamburger_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2em;
+    margin-right: 0.5em;
+}
+
+.hamburger_line {
+    width: 1.5em;
+    height: 0.1em;
+    background-color: var(--clr_black) !important;
+}
+
 @media (width < 1000px) {
     .primary_button::after {
         display: none;
