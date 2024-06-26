@@ -80,6 +80,24 @@
     line-height: 1;
 }
 
+.project_small_title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5em;
+}
+
+.project_small_title svg {
+    height: 1em;
+}
+
+.project_small_title p {
+    font-family: var(--font_regular);
+    font-size: 1em;
+    color: var(--clr_black);
+    text-transform: uppercase;
+}
+
 /* Media Queries */
 @media (width < 1000px) {
     .hero_right h1 {
