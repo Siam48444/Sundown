@@ -92,7 +92,7 @@ nav {
 }
 
 .nav_left svg {
-    height: 3.5em;
+    height: 4em;
 }
 
 .nav_right {
@@ -118,7 +118,7 @@ nav {
     &::after {
         position: absolute;
         content: attr(name);
-        inset: 105% 30% -105% 30%;
+        inset: 105% 40% -105% 40%;
         border-radius: 50%;
         display: grid;
         place-items: center;
