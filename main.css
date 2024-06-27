@@ -97,6 +97,10 @@ video {
     padding-block: var(--main_padding_block);
 }
 
+:is(a, button):focus-visible {
+    outline: solid 0.15em var(--clr_primary_1);
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -139,7 +143,7 @@ nav {
         border-radius: 50%;
         display: grid;
         place-items: center;
-        background-color: var(--clr_black) !important;
+        background-color: var(--clr_primary_1) !important;
         color: var(--clr_white);
         font-family: inherit;
         font-size: inherit;
@@ -150,17 +154,12 @@ nav {
 }
 
 @media (width > 1000px) {
-    .primary_button:hover {
+    :is(.primary_button:hover, .primary_button:focus-visible) {
         border-color: transparent;
-        transition-delay: var(--hover_transition_time);
+        transition-delay: 200ms;
     }
 
-    .primary_button:focus-visible {
-        outline: solid 0.1em var(--clr_primary_1);
-    }
-
-    .primary_button:hover::after,
-    .primary_button:focus-visible::after {
+    :is(.primary_button:hover, .primary_button:focus-visible)::after {
         inset: 0;
         border-radius: inherit;
     }
