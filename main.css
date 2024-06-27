@@ -59,7 +59,7 @@ video {
 
 :root {
     /* Colors */
-    --clr_primary_1: #f83710;
+    --clr_primary_1: rgb(247, 71, 36);
     --clr_white: #ebe6df;
     --clr_gray: #c1bcb6;
     --clr_black: #0b0500;
@@ -84,6 +84,8 @@ video {
     --primary_button_border_radius: 10em;
 
     --fs_project_h1: 2.5em;
+    --fs_project_h6: 1em;
+    --fs_project_p: 0.9em;
 }
 
 .max {
