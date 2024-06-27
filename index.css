@@ -98,6 +98,35 @@
     text-transform: uppercase;
 }
 
+.project_wrapper {
+    position: relative;
+    padding-block: var(--main_padding_block);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects {
+    background-color: coral;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    width: 100%;
+    padding-block: 1em;
+}
+
+.projects img,
+.projects video {
+    position: absolute;
+}
+
+.projects h1 {
+    background-color: red;
+}
+
 /* Media Queries */
 @media (width < 1000px) {
     .hero_right h1 {

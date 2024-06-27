@@ -72,7 +72,6 @@ video {
     --max_width: min(111em, 100%);
     --main_width: 95%;
     --main_padding_block: 2em;
-
     --container_border: solid 0.1em var(--clr_gray);
 
     --hover_transition_time: 300ms;
