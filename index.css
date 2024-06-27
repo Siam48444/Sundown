@@ -119,11 +119,6 @@
     border-bottom: var(--container_border);
 }
 
-.projects img,
-.projects video {
-    position: absolute;
-}
-
 .projects h1 {
     font-family: var(--font_medium);
     font-size: 2.5em;
@@ -145,6 +140,12 @@
     color: var(--clr_black);
     text-align: right;
     opacity: 0.5;
+}
+
+.project_visual {
+    position: absolute;
+    width: 15em;
+    aspect-ratio: 1 / 1.5;
 }
 
 /* Media Queries */
