@@ -145,7 +145,14 @@
 .project_visual {
     position: absolute;
     width: 15em;
-    aspect-ratio: 1 / 1.5;
+    aspect-ratio: 1 / 1.2;
+    border-radius: var(--primary_border_radius);
+    right: 20%;
+}
+
+.project_visual img,
+.project_visual video {
+    object-fit: cover;
 }
 
 /* Media Queries */
