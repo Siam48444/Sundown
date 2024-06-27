@@ -86,10 +86,11 @@
     justify-content: start;
     gap: 0.5em;
     padding-top: var(--main_padding_block);
+    margin-top: 5em;
 }
 
 .project_small_title svg {
-    height: 0.9em;
+    height: 0.7em;
 }
 
 .project_small_title p {
@@ -172,13 +173,19 @@
     pointer-events: none;
     z-index: 2;
     width: 15em;
-    aspect-ratio: 1;
+    aspect-ratio: 1 / 1.2;
     border-radius: var(--primary_border_radius);
     right: 20%;
     opacity: 0;
+    scale: 0.9;
 
-    transition-property: opacity;
+    transition-property: opacity, scale;
     transition-duration: var(--hover_transition_time);
+}
+
+.project_visual_open {
+    opacity: 1;
+    scale: 1;
 }
 
 .project_visual img,
