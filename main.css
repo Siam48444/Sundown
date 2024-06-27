@@ -82,6 +82,8 @@ video {
     --primary_button_font_size: 1em;
     --primary_button_padding: 0.5em 1em;
     --primary_button_border_radius: 10em;
+
+    --fs_project_h1: 2.5em;
 }
 
 .max {
