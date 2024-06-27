@@ -59,7 +59,7 @@ video {
 
 :root {
     /* Colors */
-    --clr_primary_1: rgb(247, 71, 36);
+    --clr_primary_1: #ee3e1b;
     --clr_white: #ebe6df;
     --clr_gray: #c1bcb6;
     --clr_black: #0b0500;
