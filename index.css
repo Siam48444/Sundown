@@ -88,12 +88,12 @@
 }
 
 .project_small_title svg {
-    height: 1em;
+    height: 0.9em;
 }
 
 .project_small_title p {
     font-family: var(--font_regular);
-    font-size: 1em;
+    font-size: 0.9em;
     color: var(--clr_black);
     text-transform: uppercase;
 }
