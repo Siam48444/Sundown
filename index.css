@@ -74,9 +74,8 @@
 
 .intro_right p {
     font-family: var(--font_regular);
-    font-size: 1em;
+    font-size: 0.95em;
     color: var(--clr_black);
-    line-height: 1;
 }
 
 .project_small_title {

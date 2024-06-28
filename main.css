@@ -72,13 +72,13 @@ video {
     --max_width: min(111em, 100%);
     --main_width: 93%;
     --main_padding_block: 2em;
-    --container_border: solid 0.1em var(--clr_gray);
+    --container_border: solid 0.01em var(--clr_gray);
 
     --hover_transition_time: 300ms;
 
     --primary_border_radius: 1em;
 
-    --primary_button_border: solid 0.1em var(--clr_gray);
+    --primary_button_border: solid 0.01em var(--clr_gray);
     --primary_button_font_size: 1em;
     --primary_button_padding: 0.5em 1em;
     --primary_button_border_radius: 10em;
