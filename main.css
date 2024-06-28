@@ -60,9 +60,9 @@ video {
 :root {
     /* Colors */
     --clr_primary_1: #f73f11;
-    --clr_white: #eaeaea;
+    --clr_white: #efefef;
     --clr_gray: #c1bcb6;
-    --clr_black: #0b0500;
+    --clr_black: #101010;
 
     /* Fonts */
     --font_medium: font_medium, Arial, Helvetica, sans-serif;
