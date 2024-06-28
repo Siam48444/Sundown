@@ -191,6 +191,11 @@
     object-fit: cover;
 }
 
+.all_projects_button {
+    width: fit-content;
+    margin-top: 2em;
+}
+
 /* Media Queries */
 @media (width < 1000px) {
     .hero_right h1 {
