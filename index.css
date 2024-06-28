@@ -229,6 +229,7 @@
         gap: 0.5em;
         border: none;
         padding: 0;
+        margin-bottom: 1em;
     }
 
     .projects h1 {
@@ -265,6 +266,16 @@
 
     .projects h1 {
         font-size: 1.5em;
+    }
+}
+
+@media (width < 600px) {
+    .project_wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .project_visual {
+        aspect-ratio: 16 / 9;
     }
 }
 
