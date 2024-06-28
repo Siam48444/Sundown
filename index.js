@@ -10,3 +10,5 @@ for (let i = 0; i < project.length; i++) {
         project_visual[i].classList.remove("project_visual_open");
     });
 }
+
+// Project scroll animation.
