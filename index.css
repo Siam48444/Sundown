@@ -281,6 +281,10 @@
     .project_visual {
         aspect-ratio: 16 / 9;
     }
+
+    .all_projects_button {
+        width: 100%;
+    }
 }
 
 @media (width < 500px) {
