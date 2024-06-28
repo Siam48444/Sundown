@@ -205,6 +205,15 @@
     .intro_left h1 {
         font-size: 2.5em;
     }
+
+    .project_visual {
+        position: static;
+        pointer-events: all;
+        z-index: 2;
+        border-radius: var(--primary_border_radius);
+        opacity: 1;
+        scale: 1;
+    }
 }
 
 @media (width < 750px) {
