@@ -1,7 +1,3 @@
-.hero_container {
-    border-bottom: var(--container_border);
-}
-
 .hero_section {
     position: relative;
     padding-top: 8em;
@@ -39,14 +35,17 @@
 }
 
 .below_main_container {
-    border-radius: var(--primary_border_radius);
+    border-block: var(--container_border);
+
+    & video {
+        border-radius: var(--primary_border_radius);
+    }
 }
 
 .intro_container {
     display: grid;
     grid-template-columns: 1.3fr 0.7fr;
     gap: 3em;
-    border-top: var(--container_border);
 }
 
 .intro_left h1 {
