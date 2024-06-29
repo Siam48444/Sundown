@@ -215,7 +215,7 @@
     font-family: var(--font_medium);
     font-size: 3.5em;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: start;
     gap: 0.3em;
     color: var(--clr_gray);
