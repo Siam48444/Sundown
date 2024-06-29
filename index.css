@@ -190,11 +190,21 @@
     align-items: start;
     justify-content: center;
     padding-block: 10em;
-    padding-inline: 3em
+    padding-inline: 3em;
+    gap: 1em;
+}
+
+.design_left p {
+    font-family: var(--font_regular);
+    font-size: 0.95em;
+    color: var(--clr_white);
 }
 
 .design_button_container {
-    display: ;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
 }
 
 /* Media Queries */
