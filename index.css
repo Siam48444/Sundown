@@ -226,7 +226,6 @@
     & div {
         height: 100%;
         width: 0.05em;
-        background-color: var(--clr_gray);
 
         transition-property: background-color;
         transition-duration: var(--hover_transition_time);
