@@ -174,7 +174,7 @@
 
 .all_projects_button {
     width: fit-content;
-    margin-top: 2em;
+    margin-block: 2em 5em;
 }
 
 .design_wrapper {
@@ -182,6 +182,19 @@
     border-radius: var(--primary_border_radius);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.design_left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-block: 10em;
+    padding-inline: 3em
+}
+
+.design_button_container {
+    display: ;
 }
 
 /* Media Queries */
