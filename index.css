@@ -266,10 +266,6 @@
     transform: translate(0, 0);
 }
 
-.swiper-wrapper {
-    padding-inline: 5em;
-} 
-
 .swiper-slide {
     display: flex;
     flex-direction: column;
@@ -277,8 +273,9 @@
     justify-content: start;
     gap: 1em;
     padding: 1em;
-    background-color: var(--clr_white);
-    aspect-ratio: 1;
+    background-color: var(--clr_white) !important;
+    aspect-ratio: 1 / 0.7;
+    cursor: pointer;
 }
 
 .swiper-slide svg {
