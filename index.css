@@ -175,6 +175,7 @@
 .all_projects_button {
     width: fit-content;
     margin-block: 2em 5em;
+    margin-inline: auto;
 }
 
 .design_wrapper {
@@ -182,7 +183,6 @@
     border-radius: var(--primary_border_radius);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2em;
 }
 
 .design_left {
@@ -192,7 +192,7 @@
     justify-content: center;
     padding-block: 8em;
     padding-inline: 5em;
-    gap: 1.5em;
+    gap: 2em;
 }
 
 .design_left p {
@@ -218,7 +218,7 @@
     align-items: start;
     justify-content: start;
     gap: 0.3em;
-    color: #505050;
+    color: #504a45;
 
     transition-property: color;
     transition-duration: var(--hover_transition_time);
@@ -226,7 +226,7 @@
     & div {
         height: 100%;
         width: 0.05em;
-        background-color: #505050;
+        background-color: #504a45;
 
         transition-property: background-color;
         transition-duration: var(--hover_transition_time);
@@ -238,6 +238,18 @@
 }
 .design_button_line_active {
     background-color: var(--clr_primary_1) !important;
+}
+
+.design_right {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    & img {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        border-radius: var(--primary_border_radius);
+    }
 }
 
 /* Media Queries */

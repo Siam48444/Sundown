@@ -61,8 +61,8 @@ video {
 :root {
     /* Colors */
     --clr_primary_1: #f73f11;
-    --clr_white: #eeedeb;
-    --clr_gray: #b1adaa;
+    --clr_white: #efeae3;
+    --clr_gray: #c0bdbb;
     --clr_black: #101010;
 
     /* Fonts */
@@ -146,6 +146,7 @@ nav {
     justify-content: center;
     background-color: transparent;
     cursor: pointer;
+    background-color: var(--clr_white) !important;
     font-family: var(--font_regular);
     font-size: var(--primary_button_font_size);
     color: var(--clr_black);
