@@ -229,6 +229,10 @@
         transition-property: background-color;
         transition-duration: var(--hover_transition_time);
     }
+
+    &:focus-visible {
+        outline: solid red 0.05em;
+    }
 }
 
 .design_button_active {
