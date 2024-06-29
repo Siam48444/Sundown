@@ -175,7 +175,6 @@
 
 .all_projects_button {
     width: fit-content;
-    margin-block: 2em 5em;
     margin-inline: auto;
 }
 
@@ -185,6 +184,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     overflow: hidden;
+    margin-block: 5em;
 }
 
 .design_left {
@@ -266,6 +266,10 @@
     transform: translate(0, 0);
 }
 
+.swiper-wrapper {
+    padding-inline: 5em;
+} 
+
 .swiper-slide {
     display: flex;
     flex-direction: column;
@@ -274,6 +278,11 @@
     gap: 1em;
     padding: 1em;
     background-color: var(--clr_white);
+    aspect-ratio: 1;
+}
+
+.swiper-slide svg {
+    height: 5em;
 }
 
 .swiper-slide p {
