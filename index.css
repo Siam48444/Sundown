@@ -304,6 +304,9 @@
     background-color: var(--clr_primary_1);
     display: grid;
     place-items: center;
+    z-index: 3;
+    opacity: 0;
+    scale: 0;
 
     & svg {
         fill: var(--clr_white);
