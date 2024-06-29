@@ -78,26 +78,6 @@
     color: var(--clr_black);
 }
 
-.project_small_title {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 0.5em;
-    padding-top: var(--main_padding_block);
-    margin-top: 5em;
-}
-
-.project_small_title svg {
-    height: 0.7em;
-}
-
-.project_small_title p {
-    font-family: var(--font_regular);
-    font-size: 0.9em;
-    color: var(--clr_black);
-    text-transform: uppercase;
-}
-
 .project_wrapper {
     position: relative;
     padding-block: var(--main_padding_block);
