@@ -218,19 +218,26 @@
     align-items: center;
     justify-content: start;
     gap: 0.3em;
-    color: var(--clr_white);
+    color: var(--clr_gray);
 
     transition-property: color;
     transition-duration: var(--hover_transition_time);
 
     & div {
         height: 100%;
-        width: 0.1em;
-        background-color: var(--clr_primary_1) !important;
+        width: 0.05em;
+        background-color: var(--clr_gray) !important;
 
         transition-property: background-color;
         transition-duration: var(--hover_transition_time);
     }
+}
+
+.design_button_active {
+    color: var(--clr_white);
+}
+.design_button_line_active {
+    background-color: var(--clr_primary_1);
 }
 
 /* Media Queries */
