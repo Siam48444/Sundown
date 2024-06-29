@@ -183,6 +183,7 @@
     border-radius: var(--primary_border_radius);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
 }
 
 .design_left {
@@ -244,19 +245,25 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+}
 
-    & img {
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
-        border-radius: var(--primary_border_radius);
-
-        transition-property: opacity;
-        transition-duration: var(--hover_transition_time);
-    }
+.design_image {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    border-radius: var(--primary_border_radius);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    transform: translateX(5%);
+    
+    transition-property: opacity, transform;
+    transition-duration: var(--hover_transition_time);
 }
 
 .design_image_active {
     opacity: 1;
+    transform: translateX(0);
 }
 
 /* Media Queries */

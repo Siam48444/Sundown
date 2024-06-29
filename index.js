@@ -14,7 +14,7 @@ for (let i = 0; i < project.length; i++) {
 // Design section buttons clicking.
 const design_button = document.querySelectorAll(".design_button");
 const design_buttons_line = document.querySelectorAll(".design_button div");
-const design_image = document.querySelectorAll(".design_right img");
+const design_image = document.querySelectorAll(".design_image");
 
 design_button[0].classList.add("design_button_active");
 design_buttons_line[0].classList.add("design_button_line_active");
