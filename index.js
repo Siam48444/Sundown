@@ -11,4 +11,4 @@ for (let i = 0; i < project.length; i++) {
     });
 }
 
-// Project scroll animation.
+window.addEventListener("load", () => {alert("LOADED!")})

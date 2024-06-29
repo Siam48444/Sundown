@@ -29,6 +29,7 @@ html.lenis body {
     scroll-behavior: smooth;
     text-decoration: none;
     list-style: none;
+    -webkit-font-smoothing: antialiased;
 }
 
 body,
