@@ -249,7 +249,14 @@
         grid-row: 1 / 2;
         grid-column: 1 / 2;
         border-radius: var(--primary_border_radius);
+
+        transition-property: opacity;
+        transition-duration: var(--hover_transition_time);
     }
+}
+
+.design_image_active {
+    opacity: 1;
 }
 
 /* Media Queries */

@@ -14,9 +14,11 @@ for (let i = 0; i < project.length; i++) {
 // Design section buttons clicking.
 const design_button = document.querySelectorAll(".design_button");
 const design_buttons_line = document.querySelectorAll(".design_button div");
+const design_image = document.querySelectorAll(".design_right img");
 
 design_button[0].classList.add("design_button_active");
 design_buttons_line[0].classList.add("design_button_line_active");
+design_image[0].classList.add("design_image_active");
 
 for (let a = 0; a < design_button.length; a++) {
     design_button[a].addEventListener("click", () => {
@@ -25,5 +27,8 @@ for (let a = 0; a < design_button.length; a++) {
 
         design_buttons_line.forEach((line) => {line.classList.remove("design_button_line_active");})
         design_buttons_line[a].classList.add("design_button_line_active");
+
+        design_image.forEach((img) => {img.classList.remove("design_image_active");})
+        design_image[a].classList.add("design_image_active");
     })
 }
