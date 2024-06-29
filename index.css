@@ -231,7 +231,7 @@
     }
 
     &:focus-visible {
-        outline: solid red 0.05em;
+        outline: solid var(--clr_primary_1) 0.05em;
     }
 }
 
@@ -298,10 +298,23 @@
 
 .partners_cursor {
     position: absolute;
-    width: 5em;
+    width: 4em;
     aspect-ratio: 1;
     border-radius: 50%;
     background-color: var(--clr_primary_1);
+    display: grid;
+    place-items: center;
+
+    & svg {
+        fill: var(--clr_white);
+        height: 2em;
+    }
+}
+
+@media (width < 1000px) {
+    .partners_cursor {
+        display: none;
+    }
 }
 
 /* Media Queries */
