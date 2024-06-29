@@ -208,7 +208,7 @@
     justify-content: center;
 }
 
-.design_button_container button {
+.design_button {
     cursor: pointer;
     background-color: transparent !important;
     border: none;
@@ -226,7 +226,7 @@
     & div {
         height: 100%;
         width: 0.05em;
-        background-color: var(--clr_gray) !important;
+        background-color: var(--clr_gray);
 
         transition-property: background-color;
         transition-duration: var(--hover_transition_time);
