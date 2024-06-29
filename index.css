@@ -267,7 +267,7 @@
 }
 
 .mySwiper {
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .swiper-slide {
@@ -349,6 +349,10 @@
 
     .design_button {
         font-size: 2.5em;
+    }
+
+    .swiper-slide svg {
+        height: 3.5em;
     }
 }
 
