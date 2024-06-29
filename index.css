@@ -184,7 +184,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     overflow: hidden;
-    margin-block: 5em;
+    margin-top: 8em;
 }
 
 .design_left {
@@ -264,6 +264,10 @@
 .design_image_active {
     opacity: 1;
     transform: translate(0, 0);
+}
+
+.mySwiper {
+    margin-top: 1em;
 }
 
 .swiper-slide {
