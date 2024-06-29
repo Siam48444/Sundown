@@ -256,7 +256,7 @@
     background-size: cover;
     opacity: 0;
     transform: translate(5%, 0);
-    
+
     transition-property: opacity, transform;
     transition-duration: var(--hover_transition_time);
 }
@@ -266,6 +266,22 @@
     transform: translate(0, 0);
 }
 
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 16 / 9;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* Media Queries */
 @media (width < 1000px) {
