@@ -104,7 +104,7 @@
         display: flex;
         align-items: center;
         justify-content: left;
-        background-color: var(--clr_white);
+        background-color: var(--clr_white) !important;
         font-size: var(--fs_project_h1);
         font-family: var(--font_medium);
         color: var(--clr_white);
@@ -175,6 +175,13 @@
 .all_projects_button {
     width: fit-content;
     margin-top: 2em;
+}
+
+.design_wrapper {
+    background-color: var(--clr_black) !important;
+    border-radius: var(--primary_border_radius);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /* Media Queries */
