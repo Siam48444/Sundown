@@ -42,5 +42,5 @@ for (let a = 0; a < design_button.length; a++) {
 // Partners swiper.
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
-    spaceBetween: 30,
+    spaceBetween: 0,
 });
