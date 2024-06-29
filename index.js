@@ -10,3 +10,7 @@ for (let i = 0; i < project.length; i++) {
         project_visual[i].classList.remove("project_visual_open");
     });
 }
+
+// Design section buttons clicking.
+const design_buttons = document.querySelectorAll(".design_button_container button");
+const design_buttons_line = document.querySelectorAll(".design_button_container button div");
