@@ -138,7 +138,8 @@
 }
 
 @media (width > 1000px) {
-    .projects:hover::after {
+    .projects:hover::after,
+    .projects:focus-visible::after {
         height: 100%;
     }
 }
