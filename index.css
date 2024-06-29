@@ -105,9 +105,6 @@
         align-items: center;
         justify-content: left;
         background-color: var(--clr_white) !important;
-        font-size: var(--fs_project_h1);
-        font-family: var(--font_medium);
-        color: var(--clr_white);
         pointer-events: none;
         mix-blend-mode: difference;
         height: 0;
@@ -293,6 +290,14 @@
     font-family: var(--font_regular);
     font-size: 0.95em;
     color: var(--clr_black);
+}
+
+.partners_cursor {
+    position: absolute;
+    width: 5em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--clr_primary_1);
 }
 
 /* Media Queries */
