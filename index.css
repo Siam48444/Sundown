@@ -182,6 +182,7 @@
     border-radius: var(--primary_border_radius);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
 }
 
 .design_left {
@@ -189,9 +190,9 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    padding-block: 10em;
-    padding-inline: 3em;
-    gap: 1em;
+    padding-block: 8em;
+    padding-inline: 5em;
+    gap: 1.5em;
 }
 
 .design_left p {
@@ -205,6 +206,24 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
+}
+
+.design_button_container button {
+    cursor: pointer;
+    background-color: transparent !important;
+    border: none;
+    font-family: var(--font_medium);
+    font-size: 3.5em;
+    line-height: 0.9;
+    color: var(--clr_white);
+    position: relative;
+
+    & span {
+        margin-right: 0.5em;
+        height: 100%;
+        width: 0.2em;
+        background-color: var(--clr_primary_1) !important;
+    }
 }
 
 /* Media Queries */
