@@ -218,7 +218,7 @@
     align-items: start;
     justify-content: start;
     gap: 0.3em;
-    color: var(--clr_gray);
+    color: #505050;
 
     transition-property: color;
     transition-duration: var(--hover_transition_time);
@@ -226,6 +226,7 @@
     & div {
         height: 100%;
         width: 0.05em;
+        background-color: #505050;
 
         transition-property: background-color;
         transition-duration: var(--hover_transition_time);
@@ -236,7 +237,7 @@
     color: var(--clr_white);
 }
 .design_button_line_active {
-    background-color: var(--clr_primary_1);
+    background-color: var(--clr_primary_1) !important;
 }
 
 /* Media Queries */
