@@ -32,3 +32,7 @@ for (let a = 0; a < design_button.length; a++) {
         design_image[a].classList.add("design_image_active");
     })
 }
+
+// 
+// 
+// 
