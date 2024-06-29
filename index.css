@@ -74,7 +74,7 @@
 
 .intro_right p {
     font-family: var(--font_regular);
-    font-size: 0.95em;
+    font-size: 0.9em;
     color: var(--clr_black);
 }
 
@@ -198,7 +198,7 @@
 
 .design_left p {
     font-family: var(--font_regular);
-    font-size: 0.95em;
+    font-size: 0.9em;
     color: var(--clr_white);
 }
 
@@ -401,5 +401,13 @@
 
     .intro_right {
         width: 100%;
+    }
+
+    .design_left {
+        padding: 2em;
+    }
+
+    .design_button {
+        font-size: 2em;
     }
 }
