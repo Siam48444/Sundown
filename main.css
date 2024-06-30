@@ -284,6 +284,27 @@ footer {
     }
 }
 
+.footer_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: var(--main_padding_block);
+    border-top: var(--container_border);
+
+    & div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.15em;
+    } 
+}
+
+.footer_bottom * :is(a, p) {
+    font-family: var(--font_regular);
+    font-size: 1em;
+    color: var(--clr_white);
+} 
+
 /* Media Queries */
 @media (width < 1000px) {
     .primary_button::after {
