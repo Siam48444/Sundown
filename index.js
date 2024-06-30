@@ -40,6 +40,11 @@ for (let a = 0; a < design_button.length; a++) {
 }
 
 // Partners swiper.
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+const swiper = new Swiper(".swiper", {
+    slidesPerView: 1,
+
+    breakpoints: {
+        500: { slidesPerView: 2 },
+        750: { slidesPerView: 3 },
+    },
 });

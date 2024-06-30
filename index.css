@@ -444,4 +444,8 @@
     .design_button {
         font-size: 2em;
     }
+
+    .swiper-slide svg {
+        height: 2.5em;
+    }
 }
