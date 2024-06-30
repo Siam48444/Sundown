@@ -43,11 +43,3 @@ for (let a = 0; a < design_button.length; a++) {
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
 });
-
-// Partners cursor.
-document.querySelector(".mySwiper").addEventListener("mousemove", (e) => {
-    gsap.to(".partners_cursor", { x: e.clientX, y: e.clientY, opacity: 1, scale: 1, ease: "elastic.out", duration: 1 });
-});
-document.querySelector(".mySwiper").addEventListener("mouseleave", (e) => {
-    gsap.to(".partners_cursor", { opacity: 0, scale: 0, ease: "elastic.out", duration: 1 });
-});

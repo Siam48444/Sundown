@@ -296,30 +296,6 @@
     color: var(--clr_black);
 }
 
-.partners_cursor {
-    position: absolute;
-    width: 4em;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    background-color: var(--clr_primary_1);
-    display: grid;
-    place-items: center;
-    z-index: 3;
-    opacity: 0;
-    scale: 0;
-
-    & svg {
-        fill: var(--clr_white);
-        height: 2em;
-    }
-}
-
-@media (width < 1000px) {
-    .partners_cursor {
-        display: none;
-    }
-}
-
 /* Media Queries */
 @media (width < 1000px) {
     .hero_right h1 {
