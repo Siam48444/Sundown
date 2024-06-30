@@ -273,12 +273,12 @@ footer {
 
 .footer_main {
     padding-top: 3em;
-    display: grid;
-    place-items: center;
 
     & h1 {
         font-family: var(--font_medium);
         font-size: 17em;
+        width: 100%;
+        text-align: center;
         color: var(--clr_white);
         line-height: 1;
     }
@@ -296,14 +296,14 @@ footer {
         align-items: center;
         justify-content: center;
         gap: 0.15em;
-    } 
+    }
 }
 
 .footer_bottom * :is(a, p) {
     font-family: var(--font_regular);
     font-size: 1em;
     color: var(--clr_white);
-} 
+}
 
 /* Media Queries */
 @media (width < 1000px) {
