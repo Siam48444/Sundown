@@ -79,7 +79,7 @@ video {
 
     --primary_button_border: solid 0.01em var(--clr_gray);
     --primary_button_font_size: 1em;
-    --primary_button_padding: 0.6em 1.4em;
+    --primary_button_padding: 0.6em 1.3em;
     --primary_button_border_radius: 10em;
 }
 
