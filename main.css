@@ -376,4 +376,8 @@ footer {
     .footer_top_left a {
         font-size: 1.7em;
     }
+
+    .menu_container a {
+        font-size: 3.5em;
+    }
 }
