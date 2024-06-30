@@ -267,8 +267,8 @@
     transform: translate(0, 0);
 }
 
-.mySwiper {
-    margin-top: 2em;
+.swiper-wrapper {
+    padding-block: var(--main_padding_block);
 }
 
 .swiper-slide {

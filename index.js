@@ -47,4 +47,9 @@ const swiper = new Swiper(".swiper", {
         500: { slidesPerView: 2 },
         750: { slidesPerView: 3 },
     },
+
+    scrollbar: {
+        el: ".swiper-scrollbar",
+        hide: true,
+    },
 });
