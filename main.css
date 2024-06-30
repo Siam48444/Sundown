@@ -112,8 +112,7 @@ video {
     align-items: center;
     justify-content: start;
     gap: 0.5em;
-    padding-top: var(--main_padding_block);
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 .small_title svg {
@@ -218,6 +217,22 @@ nav {
     translate: 0 -0.15em;
     rotate: 45deg;
     background-color: var(--clr_black) !important;
+}
+
+footer {
+    background-color: var(--clr_black) !important;
+    margin-top: 3em;
+}
+
+.footer_container {
+    padding-top: 8em;
+}
+
+.footer_top {
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Media Queries */

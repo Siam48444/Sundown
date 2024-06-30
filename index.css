@@ -181,7 +181,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     overflow: hidden;
-    margin-top: 8em;
+    margin-top: 5em;
 }
 
 .design_left {
@@ -229,9 +229,6 @@
         transition-property: background-color;
         transition-duration: var(--hover_transition_time);
     }
-
-    /* &:focus-visible {
-    } */
 }
 
 .design_button_active {
