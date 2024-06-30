@@ -237,12 +237,13 @@ nav {
     flex-direction: column;
     align-items: end;
     justify-content: center;
-    background-color: var(--clr_primary_1) !important;
+    background-color: var(--clr_white) !important;
     border-radius: 0 0 var(--primary_border_radius) var(--primary_border_radius);
     overflow: hidden;
-    max-height: 0;
+    padding: 1.5em;
+    opacity: 0;
 
-    transition-property: max-height, padding;
+    transition-property: opacity;
     transition-duration: var(--hover_transition_time);
 
     & a {
@@ -254,8 +255,7 @@ nav {
 }
 
 .menu_open {
-    max-height: fit-content;
-    /* padding: 1.5em; */
+    opacity: 1;
 }
 
 footer {
