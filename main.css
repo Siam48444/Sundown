@@ -219,7 +219,7 @@ footer {
 }
 
 .footer_container {
-    padding-top: 8em;
+    padding-top: 5em;
 }
 
 .footer_top {
@@ -227,6 +227,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4em;
 }
 
 .footer_top_left {
@@ -285,6 +287,8 @@ footer {
     justify-content: space-between;
     padding-block: var(--main_padding_block);
     border-top: var(--container_border);
+    gap: 2em;
+    flex-wrap: wrap;
 
     & div {
         display: flex;
@@ -318,5 +322,11 @@ footer {
 
     .hamburger_button {
         display: flex;
+    }
+}
+
+@media (width < 500px) {
+    .footer_top_left a {
+        font-size: 1.7em;
     }
 }
