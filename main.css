@@ -249,6 +249,21 @@ footer {
     }
 }
 
+.footer_top_right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.footer_top_right h6 {
+    font-family: var(--font_regular);
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--clr_white);
+}
+
 /* Media Queries */
 @media (width < 1000px) {
     .primary_button::after {
