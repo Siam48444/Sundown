@@ -230,9 +230,8 @@
         transition-duration: var(--hover_transition_time);
     }
 
-    &:focus-visible {
-        outline: solid var(--clr_primary_1) 0.05em;
-    }
+    /* &:focus-visible {
+    } */
 }
 
 .design_button_active {
