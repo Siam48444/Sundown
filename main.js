@@ -17,4 +17,5 @@ document.querySelector(".hamburger_button").addEventListener("click", () => {
     document.querySelectorAll(".hamburger_line")[0].classList.toggle("line_1_clicked");
     document.querySelectorAll(".hamburger_line")[1].classList.toggle("line_2_clicked");
     document.querySelector(".menu_section").classList.toggle("menu_open");
+    document.body.classList.toggle("no_scroll")
 });

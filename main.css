@@ -95,6 +95,10 @@ video {
     padding-block: var(--main_padding_block);
 }
 
+.no_scroll {
+    overflow: hidden;
+}
+
 :is(a, button):focus-visible {
     outline: solid 0.15em var(--clr_primary_1);
     outline-offset: 0.1em;
