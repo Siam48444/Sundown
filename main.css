@@ -29,7 +29,6 @@ html.lenis body {
     scroll-behavior: smooth;
     text-decoration: none;
     list-style: none;
-    -webkit-font-smoothing: antialiased;
 }
 
 body,
@@ -269,6 +268,20 @@ footer {
         font-size: 1em;
         color: var(--clr_white);
         width: 100%;
+    }
+}
+
+.footer_main {
+    padding-top: 3em;
+    display: grid;
+    place-items: center;
+    border-bottom: var(--container_border);
+
+    & h1 {
+        font-family: var(--font_medium);
+        font-size: 17em;
+        color: var(--clr_white);
+        line-height: 1;
     }
 }
 
