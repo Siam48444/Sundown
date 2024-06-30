@@ -219,9 +219,30 @@ nav {
 }
 
 .menu_section {
-    background-color: var(--clr_white) !important;
     position: absolute;
     z-index: 5;
+    inset: auto 0 auto 0;
+    padding-top: var(--main_padding_block);
+    display: none;
+}
+
+@media (width < 1000px) {
+    .menu_section {
+        display: block;
+    }
+}
+
+.menu_container {
+    background-color: var(--clr_white) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+
+    & a {
+        font-family: var(--font_medium);
+        font-size: 3em;
+    }
 }
 
 footer {
