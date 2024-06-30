@@ -269,6 +269,7 @@
 
 .swiper-wrapper {
     padding-block: var(--main_padding_block);
+    cursor: grab;
 }
 
 .swiper-slide {
@@ -278,7 +279,6 @@
     justify-content: start;
     padding: 2em;
     background-color: var(--clr_white) !important;
-    cursor: pointer;
 
     &:not(:first-child) {
         border-left: var(--container_border);
