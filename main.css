@@ -295,10 +295,13 @@ footer {
     gap: 2em;
     flex-wrap: wrap;
 
-    & div {
+    & a {
         display: flex;
         align-items: center;
         justify-content: center;
+        font-family: var(--font_regular);
+        font-size: 1em;
+        color: var(--clr_white);
 
         & svg {
             fill: var(--clr_white);
@@ -306,12 +309,6 @@ footer {
             margin-right: 0.2em;
         }
     }
-}
-
-.footer_bottom * :is(a, p) {
-    font-family: var(--font_regular);
-    font-size: 1em;
-    color: var(--clr_white);
 }
 
 /* Media Queries */
