@@ -274,13 +274,8 @@ footer {
 .footer_main {
     padding-top: 3em;
 
-    & h1 {
-        font-family: var(--font_medium);
-        font-size: 17em;
-        width: 100%;
-        text-align: center;
-        color: var(--clr_white);
-        line-height: 1;
+    & svg {
+        fill: var(--clr_white);
     }
 }
 
