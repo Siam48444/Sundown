@@ -59,7 +59,7 @@ video {
 :root {
     /* Colors */
     --clr_primary_1: #f73f11;
-    --clr_white: #efeae3;
+    --clr_white: #f1eee8;
     --clr_gray: #c0bdbb;
     --clr_black: #101010;
 
@@ -79,7 +79,7 @@ video {
 
     --primary_button_border: solid 0.01em var(--clr_gray);
     --primary_button_font_size: 1em;
-    --primary_button_padding: 0.5em 1em;
+    --primary_button_padding: 0.6em 1.4em;
     --primary_button_border_radius: 10em;
 }
 
@@ -294,7 +294,12 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 0.15em;
+
+        & svg {
+            fill: var(--clr_white);
+            height: 1.2em;
+            margin-right: 0.2em;
+        }
     }
 }
 
