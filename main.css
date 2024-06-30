@@ -134,7 +134,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 0.5em;
 }
 
 .primary_button {
@@ -174,9 +174,14 @@ nav {
 }
 
 @media (width > 1000px) {
-    :is(.primary_button:hover, .primary_button:focus-visible)::after {
-        inset: 0;
-        border-radius: inherit;
+    :is(.primary_button:hover, .primary_button:focus-visible) {
+        border-color: transparent;
+        transition-delay: 200ms;
+
+        &::after {
+            inset: 0;
+            border-radius: inherit;
+        }
     }
 }
 
