@@ -41,15 +41,19 @@ for (let a = 0; a < design_button.length; a++) {
 
 // Partners swiper.
 const swiper = new Swiper(".swiper", {
-    slidesPerView: 1,
+    slidesPerView: 1.2,
 
-    breakpoints: {
-        500: { slidesPerView: 2 },
-        750: { slidesPerView: 3 },
+    keyboard: {
+        enabled: true,
     },
 
     scrollbar: {
         el: ".swiper-scrollbar",
         hide: true,
+    },
+
+    breakpoints: {
+        500: { slidesPerView: 2.2 },
+        800: { slidesPerView: 3.2 },
     },
 });
