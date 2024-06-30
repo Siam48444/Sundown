@@ -218,6 +218,12 @@ nav {
     background-color: var(--clr_black) !important;
 }
 
+.menu_section {
+    background-color: var(--clr_white) !important;
+    position: absolute;
+    z-index: 5;
+}
+
 footer {
     background-color: var(--clr_black) !important;
     margin-top: 3em;
