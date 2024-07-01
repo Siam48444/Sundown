@@ -100,6 +100,12 @@ video {
     overflow: hidden;
 }
 
+@media (width > 750px) {
+    .no_scroll {
+        overflow: hidden auto;
+    }
+}
+
 :is(a, button):focus-visible {
     outline: solid 0.15em var(--clr_primary_1);
     outline-offset: 0.1em;
